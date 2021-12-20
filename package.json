@@ -4,10 +4,10 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ metaversepad/staking",
-    "create-local": "graph create --node http://localhost:8020/ metaversepad/staking",
-    "remove-local": "graph remove --node http://localhost:8020/ metaversepad/staking",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 metaversepad/staking"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ metaversepad/staking-indexer",
+    "create-local": "graph create --node http://localhost:8020/ metaversepad/staking-indexer",
+    "remove-local": "graph remove --node http://localhost:8020/ metaversepad/staking-indexer",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 metaversepad/staking-indexer"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.23.1",
