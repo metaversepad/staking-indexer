@@ -1,6 +1,17 @@
-type ExampleEntity @entity {
+type User @entity {
   id: ID!
-  count: BigInt!
+  address: Bytes! # address
+  totalValue: BigInt! # amount
+}
+
+type StakedEntity @entity {
+  id: ID!
+  from: Bytes! # address
+  amount: BigInt! # uint256
+}
+
+type UnstakedEntity @entity {
+  id: ID!
   from: Bytes! # address
   amount: BigInt! # uint256
 }
