@@ -6,9 +6,9 @@ dataSources:
     name: Staking
     network: bsc
     source:
-      address: "0xDd82DA478c8b2Ea4B2E20ab41e4FEC350BfA987C"
+      address: "0x0aA247598539aA257c098087cADff3Beb2Fdf4Cd"
       abi: Staking
-      startBlock: 13646051
+      startBlock: 13695926
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
