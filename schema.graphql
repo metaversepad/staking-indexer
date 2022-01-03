@@ -15,3 +15,8 @@ type UnstakedEntity @entity {
   from: Bytes! # address
   amount: BigInt! # uint256
 }
+
+type totalStaked @entity {
+  id: ID!
+  amount: BigInt! # uint256
+}
