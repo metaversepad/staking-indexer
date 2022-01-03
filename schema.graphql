@@ -16,7 +16,7 @@ type UnstakedEntity @entity {
   amount: BigInt! # uint256
 }
 
-type totalStaked @entity {
+type TotalStaked @entity {
   id: ID!
   amount: BigInt! # uint256
 }
