@@ -44,7 +44,7 @@ export function handleUnstaked(event: Unstaked): void {
   let entity = UnstakedEntity.load(event.transaction.hash.toHex())
 
   if (!entity) {
-    entity = new UnstakedEntity(event.transaction.from.toHex())
+    entity = new UnstakedEntity(event.transaction.hash.toHex())
   }
   substractTotalDepositedByUser(event.params.from, event.params.amount);
 
